@@ -20,7 +20,7 @@ const loadDataFromLocalstorage = () => {
                             <h1>Github Repository Analyzer </h1>
                             <p>Input a valid github repository link, select your knowledge level with respect to repository and enter your question to start a conversation
                             <br>Start a new chat and then change the repository to and start a new converstation with respect to that repository.
-                    
+          
                             </p>
                         </div>
                         
