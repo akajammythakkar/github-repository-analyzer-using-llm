@@ -14,32 +14,26 @@
     <div class="chat-container"></div>
     
     <!-- Typing container -->
+    
     <div class="typing-container">
       <div class="jay">
         <select id="option">
-          <option>None</option>
-          <option>Basic</option>
-          <option>Completely Familiar</option>
+            <option>None</option>
+            <option>Basic</option>
+            <option>Completely Familiar</option>
         </select>
-        
-        <select id="language">
-          <option value="en">English</option>
-          <!-- Other language options -->
-        </select>
-        
         <input type="text" placeholder="github url" id="url">
-        <span id="send-btn-1" class="material-symbols-rounded">send</span>
-      </div>
+        </div>
       <div class="typing-content">
         <div class="typing-textarea">
-          <textarea id="chat-input" spellcheck="false" placeholder="Enter a prompt here" required></textarea>
-          <span id="send-btn-2" class="material-symbols-rounded">send</span>
+          <textarea id="chat-input" spellcheck="true" placeholder="Enter your question with respect to repository here" required></textarea>
+          <span id="send-btn" class="material-symbols-rounded">send</span>
         </div>
         <div class="typing-controls">
           <span id="theme-btn" class="material-symbols-rounded">light_mode</span>
           <span id="delete-btn" class="material-symbols-rounded">delete</span>
-        </div>
       </div>
     </div>
+
   </body>
 </html>
