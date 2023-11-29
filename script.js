@@ -41,6 +41,7 @@ const createChatElement = (content, className) => {
 
 const getChatResponse = async (incomingChatDiv) => {
     const API_URL = "https://dhiwiseproject-yv2pt5zojq-el.a.run.app/hello";
+    
     // const API_URL = "http://127.0.0.1:5000/hello";
     const pElement = document.createElement("p");
     console.log(url.value);
